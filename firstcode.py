@@ -38,18 +38,23 @@ print("num", num)
 print(not False)
 val1 = True
 val2 = False
+print("addition function")
 first = int(input("enter your first value :", ))
 second = int(input("enter your sencond value :", ))
 sum1 = first + second
 print(sum1)
 #done 
-s1 = int(input("enter your frist side :", ))
-s2 = int(input("enter your another side :", ))
-print("area =", s1 * s2)
+print("area of square function")
+s1 = int(input("enter your side :", ))
+print("area =", s1 * s1)
+print("average of numbers function")
 a1 = float(input("enter your first value :", ))
 a2 = float(input("enter your second :", ))
 print("average =", (a1 +a2)/2)
 #done happy
+print(" greatest or equal to function" , ">=")
+print("if correct then result is true if not then false")
 p = int(input("enter your value :", ))
 p2 = int(input("enter your second value :", ))
 print(p>=p2)
+
